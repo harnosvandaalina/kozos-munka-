@@ -15,6 +15,9 @@ aside {
     grid-area: as;
     border: 2px solid rgb(0, 0, 0);
 }
+.virag {
+    text-align: justify;
+}
 article {
     grid-area: ar;
     border: 2px solid rgb(0, 0, 0);
