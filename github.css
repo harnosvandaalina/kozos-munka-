@@ -22,6 +22,9 @@ aside {
 }
 .kep {
     width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .virag {
     text-align: justify;
