@@ -19,6 +19,9 @@ aside {
     grid-area: as;
     border: 2px solid rgb(0, 0, 0);
 }
+.kep {
+    width: 500px;
+}
 .virag {
     text-align: justify;
 }
