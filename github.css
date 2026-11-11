@@ -34,8 +34,14 @@ footer {
     border: 2px solid rgb(0, 0, 0);
 }
 
-@media (max-width: 600px) {
-  .kiskepekkeret {
-    grid-template-columns: repeat(2, 1fr);
-  }
+@media screen and (max-width:600px) {
+    main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "h"
+                        "n"
+                        "as"
+                        "ar" 
+                        "f";
+}
 }
