@@ -9,15 +9,19 @@ main {
 }
 nav {
     grid-area: n;
+    border: 2px solid rgb(0, 0, 0);
 }
 aside {
     grid-area: as;
+    border: 2px solid rgb(0, 0, 0);
 }
 article {
     grid-area: ar;
+    border: 2px solid rgb(0, 0, 0);
 }
 footer {
     grid-area: f;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 @media (max-width: 600px) {
