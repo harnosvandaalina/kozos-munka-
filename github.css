@@ -8,14 +8,45 @@ main {
                         "f f f";
   
 }
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 header {
     grid-area: h;
     border: 2px solid rgb(0, 0, 0);
 }
+
+h1{
+    text-align: center;
+}
+
 nav {
     grid-area: n;
     border: 2px solid rgb(0, 0, 0);
 }
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+li{
+    list-style: none;
+    border: 1px solid black ;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover{
+    color: palevioletred;
+}
+
 aside {
     grid-area: as;
     border: 2px solid rgb(0, 0, 0);
@@ -37,10 +68,13 @@ aside {
 article {
     grid-area: ar;
     border: 2px solid rgb(0, 0, 0);
+    text-align: justify;
+    padding: 10px;
 }
 footer {
     grid-area: f;
     border: 2px solid rgb(0, 0, 0);
+    text-align: center;
 }
 
 @media screen and (max-width:800px) {
@@ -53,4 +87,9 @@ footer {
                         "ar" 
                         "f";
 }
+
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
