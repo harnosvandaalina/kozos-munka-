@@ -23,26 +23,31 @@ h1{
 
 nav {
     grid-area: n;
+    margin-bottom: 20px;
 }
 
 ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    text-align: center;
     
 }
+
 li{
     list-style: none;
-    border: 1px solid black ;
 }
 
 a{
     text-decoration: none;
     color: cornflowerblue;
+    background-color: rgb(220, 192, 196);
+    padding: 10px;
 }
 
 a:hover{
     color: palevioletred;
+    background-color: rgb(190, 222, 233);
 }
 
 aside {
